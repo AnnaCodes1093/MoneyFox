@@ -19,6 +19,7 @@
     <AndroidLinkMode>None</AndroidLinkMode>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <AndroidPackageFormat>aab</AndroidPackageFormat>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -37,7 +38,7 @@
     <MandroidI18n />
     <AndroidUseAapt2>true</AndroidUseAapt2>
     <AndroidEnableProfiledAot>false</AndroidEnableProfiledAot>
-    <AndroidLinkMode>SdkOnly</AndroidLinkMode>
+    <AndroidLinkMode>None</AndroidLinkMode>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <AndroidPackageFormat>aab</AndroidPackageFormat>
@@ -49,7 +50,7 @@
     <WarningLevel>4</WarningLevel>
     <AndroidManagedSymbols>true</AndroidManagedSymbols>
     <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
-    <AotAssemblies>true</AotAssemblies>
+    <AotAssemblies>false</AotAssemblies>
     <EnableLLVM>true</EnableLLVM>
     <BundleAssemblies>false</BundleAssemblies>
     <AndroidLinkMode>SdkOnly</AndroidLinkMode>
