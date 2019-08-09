@@ -40,6 +40,7 @@
     <AndroidLinkMode>SdkOnly</AndroidLinkMode>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <AndroidPackageFormat>aab</AndroidPackageFormat>
     <DebugSymbols>false</DebugSymbols>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
